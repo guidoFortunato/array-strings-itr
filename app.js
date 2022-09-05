@@ -17,11 +17,11 @@ let arrayStrings = [];
 const llenarArray = () => {
   arrayInts.map((item) => {
     if (item % 3 === 0 && item % 5 === 0) {
-      arrayStrings.push(` ${item}: FizzBuzz`);
+      arrayStrings.push(` FizzBuzz`);
     } else if (item % 3 === 0 || item.toString().includes(3)) {
-      arrayStrings.push(` ${item}: Fizz`);
+      arrayStrings.push(` Fizz`);
     } else if (item % 5 === 0 || item.toString().includes(5)) {
-      arrayStrings.push(` ${item}: Buzz`);
+      arrayStrings.push(` Buzz`);
     } else {
       arrayStrings.push(` ${item}`);
     }
