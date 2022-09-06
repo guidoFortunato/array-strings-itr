@@ -1,7 +1,7 @@
 const btn = document.querySelector("#btn");
 const resultadoArrays = document.querySelector("#resultadoArrays");
 
-const arrayInts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 31, 52];
+const arrayInts = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 31, 52];
 let arrayStrings = [];
 
 // let flag = 0
